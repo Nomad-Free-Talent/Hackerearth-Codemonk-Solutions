@@ -22,5 +22,7 @@ int main() {
 			}
 		}
 		cout << count << endl;
+		for (int i = 0; i < N; i ++) delete[] M[i];
+		delete[] M;
 	}
 }
